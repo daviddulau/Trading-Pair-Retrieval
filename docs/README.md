@@ -23,6 +23,10 @@ Unit tests.
 - [Scrutor] - Di decoration
 - [xUnit]
 - [FluentAssertions]
+- [SwaggerUI]
 
 ## Postman
 Postman collections are under docs/Postman.
+
+## Run Requirements
+In order to run the project there is nothing additional requirements, just to restore the nuget packages.
