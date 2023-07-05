@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/PriceRetrieval/obj
+/PriceRetrieval.API/obj
+/PriceRetrieval.UnitTests/bin
+/PriceRetrieval.UnitTests/obj
