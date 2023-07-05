@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "d205905f-105f-47d6-ad55-227f28094645",
+		"name": "External Providers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26578806"
+	},
+	"item": [
+		{
+			"name": "bitstamp BTCUSD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bitstamp.net/api/v2/ohlc/btcusd/?step=3600&limit=1&start=1672578000",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bitstamp",
+						"net"
+					],
+					"path": [
+						"api",
+						"v2",
+						"ohlc",
+						"btcusd",
+						""
+					],
+					"query": [
+						{
+							"key": "step",
+							"value": "3600"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						},
+						{
+							"key": "start",
+							"value": "1672578000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bitstamp ETHUSD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bitstamp.net/api/v2/ohlc/ethusd/?step=3600&limit=1&start=1672578000",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bitstamp",
+						"net"
+					],
+					"path": [
+						"api",
+						"v2",
+						"ohlc",
+						"ethusd",
+						""
+					],
+					"query": [
+						{
+							"key": "step",
+							"value": "3600"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						},
+						{
+							"key": "start",
+							"value": "1672578000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bitfinex BTCUSD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-pub.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?start=1672531200000&end=1672534800000&limit=1",
+					"protocol": "https",
+					"host": [
+						"api-pub",
+						"bitfinex",
+						"com"
+					],
+					"path": [
+						"v2",
+						"candles",
+						"trade:1h:tBTCUSD",
+						"hist"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "1672531200000"
+						},
+						{
+							"key": "end",
+							"value": "1672534800000"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bitfinex ETHUSD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-pub.bitfinex.com/v2/candles/trade:1h:tETHUSD/hist?start=1672531200000&end=1672534800000&limit=1",
+					"protocol": "https",
+					"host": [
+						"api-pub",
+						"bitfinex",
+						"com"
+					],
+					"path": [
+						"v2",
+						"candles",
+						"trade:1h:tETHUSD",
+						"hist"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "1672531200000"
+						},
+						{
+							"key": "end",
+							"value": "1672534800000"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
